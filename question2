@@ -1,0 +1,16 @@
+def purchase_order():
+    lst=['ProductName', 'Quantity', 'Pricing', 'MRP','PurchaseOrderID','CustomerID']
+    for i in lst:
+        ProductName=int(input('enter the Product Name'))
+        print(ProductName)
+        Quantity=int(input('enter the Quantity'))
+        print(Quantity)
+        Pricing=int(input('enter the Pricing'))
+        print(Pricing)
+        MRP=int(input('enter the MRP'))
+        print(MRP)
+        PurchaseOrderID=int(input('enter the PurchaseOrder ID'))
+        print(PurchaseOrderID)
+        CustomerID=int(input('enter the Customer ID'))
+        print(CustomerID)
+purchase_order()
