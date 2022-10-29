@@ -1,0 +1,12 @@
+def customers_details():
+    lst=['CustomerName', 'Email', 'MobileNumber', 'CityCustomerID']
+    for i in lst:
+        CustomerName=int(input('enter the customer name'))
+        print(CustomerName)
+        Email=int(input('enter the Email'))
+        print(Email)
+        MobileNumber=int(input('enter the MobileNumber'))
+        print(MobileNumber)
+        CityCustomerID=int(input('enter the CityCustomerID'))
+        print(CityCustomerID)
+customers_details()
