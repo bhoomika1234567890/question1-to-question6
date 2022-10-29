@@ -1,0 +1,21 @@
+def purchase_shipment():
+lst=['customerId','purchaseOrder','purchaseOrderId','productName','quantity','shipmentDetail','address','city','pincode']
+for i in lst:
+    def customerId():
+        purchaseOrder=int(input('enter the purchase Order'))
+        print(purchaseOrder)
+        purchaseOrderId=int(input('enter the purchase Order ID'))
+        print(purchaseOrderId)
+        productName=int(input('enter the product Name'))
+        print(productName)
+        quantity=int(input('enter the quantity'))
+            def shipmentDetail():
+                address=int(input('enter the address'))
+                print(purchaseOrder)
+                city=int(input('enter the purchase city'))
+                print(city)
+                pincode=int(input('enter the pincode'))
+                print(pincode)
+    customerId()
+            shipmentDetail()
+shipment_city()
