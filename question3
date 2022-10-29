@@ -1,0 +1,14 @@
+def shipping_details():
+    lst=['Address', 'City', 'Pincode','PurchaseOrderID','CustomerID']
+    for i in lst:
+        Address=int(input('enter the Address'))
+        print(Address)
+        City=int(input('enter the City'))
+        print(City)
+        Pincode=int(input('enter the Pincode'))
+        print(Pincode)
+        PurchaseOrderID=int(input('enter the PurchaseOrder ID'))
+        print(PurchaseOrderID)
+        CustomerID=int(input('enter the Customer ID'))
+        print(CustomerID)
+shipping_details()
