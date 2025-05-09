@@ -7,6 +7,6 @@ def customers_details():
         print(Email)
         MobileNumber=int(input('enter the MobileNumber'))
         print(MobileNumber)
-        CityCustomerID=int(input('enter the CityCustomerID'))
+        CityCustomerID=int(input('enter the CityCustomerIDDDD'))
         print(CityCustomerID)
 customers_details()
